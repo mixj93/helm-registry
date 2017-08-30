@@ -10,7 +10,7 @@ import (
 	"compress/gzip"
 	"path/filepath"
 
-	"github.com/caicloud/helm-registry/pkg/errors"
+	"github.com/mixj93/helm-registry/pkg/errors"
 	"github.com/ghodss/yaml"
 	"k8s.io/helm/pkg/proto/hapi/chart"
 )

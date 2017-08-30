@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/caicloud/helm-registry/pkg/errors"
-	"github.com/caicloud/helm-registry/pkg/log"
-	"github.com/caicloud/helm-registry/pkg/storage"
+	"github.com/mixj93/helm-registry/pkg/errors"
+	"github.com/mixj93/helm-registry/pkg/log"
+	"github.com/mixj93/helm-registry/pkg/storage"
 )
 
 // a global SpaceManager

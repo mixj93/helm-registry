@@ -5,8 +5,8 @@ Copyright 2017 caicloud authors. All rights reserved.
 package v1
 
 import (
-	"github.com/caicloud/helm-registry/pkg/api/definition"
-	"github.com/caicloud/helm-registry/pkg/api/v1/descriptor"
+	"github.com/mixj93/helm-registry/pkg/api/definition"
+	"github.com/mixj93/helm-registry/pkg/api/v1/descriptor"
 	"github.com/emicklei/go-restful"
 )
 

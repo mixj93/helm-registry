@@ -7,7 +7,7 @@ package utils
 import (
 	"reflect"
 
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/mixj93/helm-registry/pkg/log"
 )
 
 // Multicase test with multiple test cases

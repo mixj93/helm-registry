@@ -7,7 +7,7 @@ package descriptor
 import (
 	"net/http"
 
-	"github.com/caicloud/helm-registry/pkg/api/definition"
+	"github.com/mixj93/helm-registry/pkg/api/definition"
 )
 
 // Descriptors describes api info

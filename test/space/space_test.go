@@ -8,9 +8,9 @@ import (
 	"os"
 	"sort"
 
-	"github.com/caicloud/helm-registry/pkg/rest"
-	"github.com/caicloud/helm-registry/pkg/rest/v1"
-	"github.com/caicloud/helm-registry/test/utils"
+	"github.com/mixj93/helm-registry/pkg/rest"
+	"github.com/mixj93/helm-registry/pkg/rest/v1"
+	"github.com/mixj93/helm-registry/test/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

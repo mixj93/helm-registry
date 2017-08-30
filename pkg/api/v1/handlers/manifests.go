@@ -7,9 +7,9 @@ package handlers
 import (
 	"context"
 
-	"github.com/caicloud/helm-registry/pkg/common"
-	"github.com/caicloud/helm-registry/pkg/errors"
-	"github.com/caicloud/helm-registry/pkg/storage"
+	"github.com/mixj93/helm-registry/pkg/common"
+	"github.com/mixj93/helm-registry/pkg/errors"
+	"github.com/mixj93/helm-registry/pkg/storage"
 )
 
 // ListMetadataInSpace lists all metadata in a space

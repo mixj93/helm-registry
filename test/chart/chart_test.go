@@ -10,9 +10,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/caicloud/helm-registry/pkg/log"
-	"github.com/caicloud/helm-registry/pkg/rest/v1"
-	"github.com/caicloud/helm-registry/test/utils"
+	"github.com/mixj93/helm-registry/pkg/log"
+	"github.com/mixj93/helm-registry/pkg/rest/v1"
+	"github.com/mixj93/helm-registry/test/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"k8s.io/helm/pkg/chartutil"

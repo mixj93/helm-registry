@@ -7,8 +7,8 @@ package api
 import (
 	"time"
 
-	"github.com/caicloud/helm-registry/pkg/api/v1"
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/mixj93/helm-registry/pkg/api/v1"
+	"github.com/mixj93/helm-registry/pkg/log"
 	"github.com/emicklei/go-restful"
 )
 

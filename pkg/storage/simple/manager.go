@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/caicloud/helm-registry/pkg/lock"
-	"github.com/caicloud/helm-registry/pkg/log"
-	"github.com/caicloud/helm-registry/pkg/storage"
-	"github.com/caicloud/helm-registry/pkg/storage/driver"
+	"github.com/mixj93/helm-registry/pkg/lock"
+	"github.com/mixj93/helm-registry/pkg/log"
+	"github.com/mixj93/helm-registry/pkg/storage"
+	"github.com/mixj93/helm-registry/pkg/storage/driver"
 	"k8s.io/helm/pkg/chartutil"
 )
 

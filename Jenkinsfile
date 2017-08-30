@@ -33,7 +33,7 @@ podTemplate(
             envVars: [
                 containerEnvVar(key: 'DOCKER_HOST', value: 'unix:///home/jenkins/docker.sock'),
                 containerEnvVar(key: 'DOCKER_API_VERSION', value: '1.26'),
-                containerEnvVar(key: 'WORKDIR', value: '/go/src/github.com/caicloud/helm-registry')
+                containerEnvVar(key: 'WORKDIR', value: '/go/src/github.com/mixj93/helm-registry')
             ],
         ),
     ]
@@ -84,7 +84,7 @@ podTemplate(
                     withCredentials ([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'caicloud-bot', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]){
                         sh("git config --global user.email \"info@caicloud.io\"")
                         sh("git tag -a $imageTag -m \"$tagDescribe\"")
-                        sh("git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/caicloud/helm-registry $imageTag")
+                        sh("git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/mixj93/helm-registry $imageTag")
                    }
                 } 
             }

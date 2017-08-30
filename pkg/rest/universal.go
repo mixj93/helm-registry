@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/caicloud/helm-registry/pkg/errors"
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/mixj93/helm-registry/pkg/errors"
+	"github.com/mixj93/helm-registry/pkg/log"
 )
 
 // UniversalClient implements a basic registry client
@@ -23,6 +23,11 @@ type UniversalClient struct {
 // NewUniversalClient creates a UniversalClient
 func NewUniversalClient(endpoint string) *UniversalClient {
 	return &UniversalClient{&http.Client{}, strings.TrimRight(endpoint, "\\/")}
+}
+
+// NewUniversalTransportClient creates a UniversalClient with transport
+func NewUniversalTransportClient(endpoint string, transport http.RoundTripper) *UniversalClient {
+	return &UniversalClient{&http.Client{Transport: transport}, strings.TrimRight(endpoint, "\\/")}
 }
 
 // Do requests specific api and gets response. If there is no error,

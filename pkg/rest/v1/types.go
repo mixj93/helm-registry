@@ -5,8 +5,8 @@ Copyright 2017 caicloud authors. All rights reserved.
 package v1
 
 import (
-	"github.com/caicloud/helm-registry/pkg/api/models"
-	"github.com/caicloud/helm-registry/pkg/storage"
+	"github.com/mixj93/helm-registry/pkg/api/models"
+	"github.com/mixj93/helm-registry/pkg/storage"
 )
 
 // StringCollectionResult describes a collection of []string

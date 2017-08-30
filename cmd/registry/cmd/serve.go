@@ -7,9 +7,9 @@ package cmd
 import (
 	"time"
 
-	"github.com/caicloud/helm-registry/pkg/api"
-	"github.com/caicloud/helm-registry/pkg/common"
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/mixj93/helm-registry/pkg/api"
+	"github.com/mixj93/helm-registry/pkg/common"
+	"github.com/mixj93/helm-registry/pkg/log"
 	"github.com/emicklei/go-restful"
 	"github.com/go-openapi/spec"
 	"github.com/spf13/cobra"
