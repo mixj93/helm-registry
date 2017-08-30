@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/mixj93/helm-registry/pkg/log"
 )
 
 // deadline stores the nanoseconds of the deadline.

@@ -5,7 +5,7 @@ Copyright 2017 caicloud authors. All rights reserved.
 package cmd
 
 import (
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/mixj93/helm-registry/pkg/log"
 	"github.com/spf13/cobra"
 )
 

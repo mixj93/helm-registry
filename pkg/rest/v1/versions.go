@@ -7,7 +7,7 @@ package v1
 import (
 	"net/http"
 
-	"github.com/caicloud/helm-registry/pkg/api/models"
+	"github.com/mixj93/helm-registry/pkg/api/models"
 )
 
 // APIListVersions defines an api of listing versions

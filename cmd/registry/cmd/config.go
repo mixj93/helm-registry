@@ -7,8 +7,8 @@ package cmd
 import (
 	"io/ioutil"
 
-	"github.com/caicloud/helm-registry/pkg/common"
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/mixj93/helm-registry/pkg/common"
+	"github.com/mixj93/helm-registry/pkg/log"
 	"github.com/ghodss/yaml"
 )
 

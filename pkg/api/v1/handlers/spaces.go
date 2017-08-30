@@ -8,8 +8,8 @@ import (
 	"context"
 	"path"
 
-	"github.com/caicloud/helm-registry/pkg/api/models"
-	"github.com/caicloud/helm-registry/pkg/common"
+	"github.com/mixj93/helm-registry/pkg/api/models"
+	"github.com/mixj93/helm-registry/pkg/common"
 )
 
 // ListSpaces lists spaces

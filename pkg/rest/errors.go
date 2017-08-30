@@ -7,7 +7,7 @@ package rest
 import (
 	"net/http"
 
-	"github.com/caicloud/helm-registry/pkg/errors"
+	"github.com/mixj93/helm-registry/pkg/errors"
 )
 
 // client common error definition

@@ -7,10 +7,10 @@ package descriptor
 import (
 	"net/http"
 
-	"github.com/caicloud/helm-registry/pkg/api/definition"
-	"github.com/caicloud/helm-registry/pkg/api/models"
-	"github.com/caicloud/helm-registry/pkg/api/v1/handlers"
-	"github.com/caicloud/helm-registry/pkg/common"
+	"github.com/mixj93/helm-registry/pkg/api/definition"
+	"github.com/mixj93/helm-registry/pkg/api/models"
+	"github.com/mixj93/helm-registry/pkg/api/v1/handlers"
+	"github.com/mixj93/helm-registry/pkg/common"
 )
 
 func init() {

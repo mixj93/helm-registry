@@ -7,7 +7,7 @@ package v1
 import (
 	"net/http"
 
-	"github.com/caicloud/helm-registry/pkg/storage"
+	"github.com/mixj93/helm-registry/pkg/storage"
 )
 
 // APIFetchChartMetadata defines an api of fetching chart metadata

@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/caicloud/helm-registry/pkg/api/models"
-	"github.com/caicloud/helm-registry/pkg/common"
-	"github.com/caicloud/helm-registry/pkg/errors"
-	"github.com/caicloud/helm-registry/pkg/orchestration"
+	"github.com/mixj93/helm-registry/pkg/api/models"
+	"github.com/mixj93/helm-registry/pkg/common"
+	"github.com/mixj93/helm-registry/pkg/errors"
+	"github.com/mixj93/helm-registry/pkg/orchestration"
 	"gopkg.in/yaml.v2"
 )
 

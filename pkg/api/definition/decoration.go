@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/caicloud/helm-registry/pkg/api/models"
-	"github.com/caicloud/helm-registry/pkg/errors"
-	"github.com/caicloud/helm-registry/pkg/log"
+	"github.com/mixj93/helm-registry/pkg/api/models"
+	"github.com/mixj93/helm-registry/pkg/errors"
+	"github.com/mixj93/helm-registry/pkg/log"
 	"github.com/emicklei/go-restful"
 )
 

@@ -7,7 +7,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/caicloud/helm-registry/pkg/errors"
+	"github.com/mixj93/helm-registry/pkg/errors"
 )
 
 // Save describes the info of a chart
